@@ -81,13 +81,13 @@ layers:
   - RGB ON
   - EP OFF
   - PgDn
-  - RGB EFF
+  - L
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - RGB EFR
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - END
+  - RGB EFF
   - PG DN
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
