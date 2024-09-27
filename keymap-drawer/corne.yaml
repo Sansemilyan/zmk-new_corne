@@ -181,10 +181,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
+  - RGB SAD
   - SCROLLLOCK
   - PAUSE BREAK
   - $$mdi:volume-off$$
