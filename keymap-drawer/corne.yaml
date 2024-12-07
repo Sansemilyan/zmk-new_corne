@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default:
+  QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -42,14 +42,14 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - lower
+  - NUMBER
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - raise
+  - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  lower:
+  NUMBER:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  raise:
+  SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  '3':
+  FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
